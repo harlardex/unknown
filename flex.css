@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 10px auto;
+}
+.flexcontent{
+    display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+    background-color: #cfb0b0;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 100px;
+    min-width: 200px;
+    flex-grow: 0 1 200px;
+    background-color: rgb(181, 107, 107);
+}
+.one{
+    background-color: blue;
+}
+.two{
+    background-color: red;
+}
+.three{
+    background-color: green;
+}
+.four{
+    background-color: blueviolet;
+}
